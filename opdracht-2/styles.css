@@ -3,3 +3,57 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 2,3*/
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 200px;
+}
+/*opdracht 2.4*/
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form label{
+    width: 150px;
+}
+/*opdracht 2.5*/
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.five article {
+    width: 300px;
+    flex-grow: 1;
+}
